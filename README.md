@@ -1,2 +1,2 @@
 # MASCOT
-Mathematical Animated Slides for Contextual Teaching
+Math Animations on Slides for Contextual Teaching

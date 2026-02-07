@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "MASCOT",
-  description: "Mathematical Animated Slides for Contextual Teaching",
+  description: "Math Animations on Slides for Contextual Teaching",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

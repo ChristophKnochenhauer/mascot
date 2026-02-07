@@ -1,0 +1,9 @@
+{
+  "id": "intro",
+  "title": "Intro Deck",
+  "slides": [
+    { "id": "0", "file": "slides/0.mdx" },
+    { "id": "1", "file": "slides/1.mdx" },
+    { "id": "2", "file": "slides/2.mdx" }
+  ]
+}

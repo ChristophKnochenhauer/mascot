@@ -1,0 +1,85 @@
+:root {
+  --max-content: 78ch;
+  --pad: 24px;
+  --gap: 20px;
+}
+
+.page {
+  padding: var(--pad);
+  max-width: min(var(--max-content), 100%);
+  margin: 0 auto;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 10px var(--pad);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.slide {
+  padding: var(--pad);
+  max-width: min(var(--max-content), 100%);
+  margin: 0 auto;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap);
+}
+
+@media (max-width: 900px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+.math-block {
+  display: block;
+  margin: 12px 0;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.slider {
+  display: grid;
+  gap: 8px;
+}
+
+.sliderRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallLabel {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.disabled {
+  opacity: 0.3;
+}

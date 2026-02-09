@@ -4,7 +4,7 @@ import "./theme.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MATHCOT",
+  title: "mathcot",
   description: "Math Animations on Slides for Contextual Teaching",
 };
 

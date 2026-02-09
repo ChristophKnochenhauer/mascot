@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { MathcotIcon } from "@/app/components/MathcotIcon";
+import { MathcotWordmark } from "@/app/components/MathcotWordmark";
 
 export default function Home() {
   return (
@@ -11,16 +13,16 @@ export default function Home() {
           <span className="pill">LMS-ready</span>
         </div>
 
-        <h1 className="h1">
-          Math Animations on Slides
-          <br />
-          for Contextual Teaching
-        </h1>
+        <div className="container">
+          <div className="brandLockup">
+            <MathcotIcon className="brandIcon" />
+            <MathcotWordmark className="brandWordmark" />
+          </div>
 
-        <p className="lead">
-          Interaktive Micro-Decks und Vorlesungsfolien für Mathematik – web-nativ,
-          schnell iterierbar und später sauber in LMS integrierbar.
-        </p>
+          <p className="lead">
+            Math Animations on Slides for Contextual Teaching
+          </p>
+        </div>
 
         <div className="buttonRow">
           <Link className="button buttonPrimary" href="/gallery">

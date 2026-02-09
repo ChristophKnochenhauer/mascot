@@ -111,7 +111,7 @@ a:hover {
   line-height: 1.55;
   color: var(--fg-muted);
   max-width: 70ch;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .grid2 {
@@ -228,4 +228,36 @@ a:hover {
 .deckTitle {
   font-weight: 700;
   font-size: 1.05rem;
+}
+
+.brandLockup {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.brandIcon {
+  width: 52px;
+  height: 52px;
+  color: var(--accent);
+  box-shadow: var(--shadow);
+  border-radius: 14px;
+}
+
+.brandWordmark {
+  height: 42px;
+  width: auto;
+  color: var(--fg);
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,0.04));
+}
+
+@media (max-width: 520px) {
+  .brandIcon {
+    width: 48px;
+    height: 48px;
+  }
+  .brandWordmark {
+    height: 36px;
+  }
 }

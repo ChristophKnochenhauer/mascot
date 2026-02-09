@@ -5,5 +5,5 @@ export default function Page({
 }: {
   params: Promise<{ deck: string; slide: string }>;
 }) {
-  return RenderSlidePage({ params, chrome: "full" });
+  return RenderSlidePage({ params, chrome: "embed" });
 }
